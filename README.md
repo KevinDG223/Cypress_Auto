@@ -14,11 +14,17 @@ The objective of this project is to demonstrate a clean, maintainable, and fast 
 The test script (ecommerceTest.cy.js) performs the following sequence:
 
 1️⃣ Opens the e-commerce demo website.
+
 2️⃣ Logs in using valid credentials.
+
 3️⃣ Navigates through product categories.
+
 4️⃣ Selects and adds two products (T-shirt and Jeans) to the shopping cart.
+
 5️⃣ Proceeds to checkout and fills in payment details.
+
 6️⃣ Confirms the order and validates the success flow.
+
 7️⃣ Logs out after completion.
 
 [Test_Cases.xlsx](https://github.com/user-attachments/files/23449302/Test_Cases.xlsx)
