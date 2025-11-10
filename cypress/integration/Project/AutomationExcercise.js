@@ -1,14 +1,12 @@
 describe('E-Commerce excercise Test', function() {
     it('Doing an order', function(){
 
-        //Login 
         cy.visit('https://automationexercise.com')
         cy.get("a[href='/login']").click()
         cy.get('[data-qa="login-email"]').type('kevindemo25@yopmail.com')
         cy.get('[data-qa="login-password"]').type('Automatizacion25')
         cy.get('[data-qa="login-button"]').click()
 
-        //Product searching
         cy.get('.shop-menu > .nav > :nth-child(2) > a').click()
         cy.get(':nth-child(2) > .panel-heading > .panel-title > a > .badge').click()
         cy.get('#Men > .panel-body > ul > :nth-child(1) > a').click()
