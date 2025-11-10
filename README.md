@@ -23,3 +23,4 @@ The test script (ecommerceTest.cy.js) performs the following sequence:
 
 [Test_Cases.xlsx](https://github.com/user-attachments/files/23449302/Test_Cases.xlsx)
 
+https://github.com/user-attachments/assets/17ee602c-9241-4f6b-8a1f-59a5d1d60457
